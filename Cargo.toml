@@ -1,0 +1,21 @@
+[package]
+name = "momoden-password"
+version = "0.1.0"
+edition = "2021"
+description = "NES Momotarou Densetsu (J) password library"
+readme = "README.md"
+documentation = "https://docs.rs/momoden-password"
+homepage = "https://github.com/taotao54321/momoden-password"
+repository = "https://github.com/taotao54321/momoden-password"
+license = "GPL-3.0-only"
+keywords = ["game", "nes"]
+categories = ["games"]
+
+[dependencies]
+arrayvec = "0.7.2"
+bitvec = "1.0.1"
+thiserror = "1.0.37"
+
+[dev-dependencies]
+anyhow = "1.0.66"
+itertools = "0.10.5"
